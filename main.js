@@ -24,7 +24,7 @@ var app = http.createServer(function (request, response) {
     topic.delete_process(request, response);
   } else {
     response.writeHead(404);
-    response.end("Not found");
+    response.end("Not Found");
   }
 });
 app.listen(3000);
